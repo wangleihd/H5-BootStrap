@@ -1,0 +1,32 @@
+<html>
+  <head>
+   <link href="http://cdnjs.bootcss.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="http://cdnjs.bootcss.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <ul class="nav nav-tabs" id="myTab">
+    <li class="active"><a href="#home">in the news </a></li>
+    <li><a href="#profile">word</a></li>
+    <li><a href="#messages">local</a></li>
+    <li><a href="#settings">finace</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="home">in the news</div>
+    <div class="tab-pane" id="profile">word</div>
+    <div class="tab-pane" id="messages">local</div>
+    <div class="tab-pane" id="settings">finace</div>
+  </div>
+
+  <script>
+  $('#myTab a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+  })
+  $(function () {
+      $('#myTab a:last').tab('show');
+  })
+  </script>
+  </body>
+  </html>
