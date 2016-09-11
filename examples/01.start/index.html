@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--  是针对IE8新加的一个设置, 对IE8之外的浏览器是不识别的. 无论页面是否包含 <!DOCTYPE> 指令，均使用IEedge的标准渲染模式.   -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BootStarp Start</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../build/bs3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../build/bs3.3.7/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="start.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../build/bs3.3.7/js/ie-emulation-modes-warning.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            $('p.hello').html("<h1>Hello H5 students!!!</h1>");
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a href="#" class="navbar-brand">项目名称</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="starter-template">
+            <h1>BootStrap开始的模板</h1>
+            <p class="lead">如果您想快速的使用BootStrap开发一个新的项目, <br>您可以修改本文档文件, 它已经完成基本框架. </p>
+
+
+        </div>
+    </div>
+
+
+    <div class="container about">
+        <p class="hello">hello world!</p>
+    </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../build/bs3.3.7/js/jquery.min.js"><\/script>')
+    </script>
+    <script src="../../build/bs3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../build/bs3.3.7/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
