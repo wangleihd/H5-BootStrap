@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid System</title>
+  <link rel="stylesheet" href="../build/bs3.3.7/css/bootstrap.min.css">
+
+</head>
+<style media="screen">
+</style>
+<body>
+  <hr>
+  <div class="container">
+    <input type="text" class="form-control" placeholder="Text input">
+  </div>
+  <hr>
+  <div class="container">
+    <div class="formp-horizontal">
+      <div class="form-group">
+        <label class="control-label col-md-1">文本输入框</label>
+        <div class="col-md-3">
+          <textarea rows="3" class="form-control"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="container">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="checkbox disabled">
+      <label>
+        <input type="checkbox" value="" disabled>
+        Option two is disabled
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="radio disabled">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+    </label>
+
+    <label class="radio-inline">
+      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+    </label>
+  </div>
+  <hr>
+
+  <div class="container">
+    <div class="form-horizontal">
+      <div class="form-group">
+          <label class="control-label col-md-1">用户名:</label>
+          <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="请输入用户名" value="">
+          </div>
+      </div>
+      <div class="form-group">
+          <label class="control-label col-md-1">密  码:</label>
+          <div class="col-md-3">
+            <input type="password" class="form-control" autofocus=":focus" placeholder="请输入密码" value="" >
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
