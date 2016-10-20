@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid System</title>
+  <link rel="stylesheet" href="../build/bs3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../build/bs3.3.7/css/font-awesome.min.css">
+  <script type="text/javascript" src="../build/bs3.3.7/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../build/bs3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<style media="screen">
+</style>
+<body>
+    <ul class="nav nav-tabs" role="tablist" id="myTab">
+      <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+      <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+      <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+      <li role="presentation"><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="home">...aaaa</div>
+      <div role="tabpanel" class="tab-pane" id="profile">...bbbb</div>
+      <div role="tabpanel" class="tab-pane" id="messages">...cccc</div>
+      <div role="tabpanel" class="tab-pane" id="settings">...dddd</div>
+    </div>
+
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+
+    <script>
+      $(function () {
+        $('#myTab a:last').tab('show')
+      })
+    </script>
+
+</body>
+</html>

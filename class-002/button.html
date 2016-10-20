@@ -10,6 +10,7 @@
 
 </head>
 <style media="screen">
+#img { max-width: 100%; height: auto;}
 </style>
 <body>
     <hr>
@@ -59,6 +60,25 @@
     <div class="container">
         <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
         <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+    </div>
+    <hr>
+
+    <div class="container">
+        <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
+        <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
+    </div>
+
+    <hr>
+    <div class="container">
+        <img id="img" src="./images/meteor.jpg" class="img-responsive" alt="Responsive image">
+        <hr>
+        <img src="./images/meteor.jpg"  />
+    </div>
+    <hr>
+    <div class="container">
+        <img src="./images/meteor.jpg" alt="" class="img-rounded">
+        <img src="./images/meteor.jpg" alt="" class="img-circle">
+        <img src="./images/meteor.jpg" alt="" class="img-thumbnail">
     </div>
 
 </body>
